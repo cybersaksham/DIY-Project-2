@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=".././gallery/logo-fav.png" type="image/x-icon">
+    <link rel="stylesheet" href=".././CSS/style.css">
+    <link rel="stylesheet" href=".././CSS/advanced.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px) " href=".././CSS/phone_adv.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>Google Advanced Search</title>
+</head>
+
+<body>
+    <section id="navbar">
+        <img src=".././gallery/google.png" alt="">
+        <ul>
+            <li class="item"><a href="../index.html">Search</a></li>
+        </ul>
+    </section>
+    <section id="content_adv">
+        <div class="lines">
+            <p>Find pages with....</p>
+        </div>
+        <form target="_blank" method="GET" action="https://www.google.com/search">
+            <div class="lines">
+                <label for="">all these words:</label><input type="text" name="as_q">
+            </div>
+            <div class="lines">
+                <label for="">this exact word or phrase:</label><input type="text" name="as_epq">
+            </div>
+            <div class="lines">
+                <label for="">any of these words:</label><input type="text" name="as_oq">
+            </div>
+            <div class="lines">
+                <label for="">none of these words:</label><input type="text" name="as_eq">
+            </div>
+            <div class="buttons">
+                <button class="btn" type="submit">Advanced Search</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+#navbar {
+    background-color: #f1f1f1;
+}
+
+#navbar img {
+    height: 22px;
+    position: absolute;
+    left: 10px;
+}
+
+#content_adv {
+    margin-top: 100px;
+}
+
+.lines p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lines {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    align-items: center;
+}
+
+#content_adv label {
+    width: 185px;
+}
+
+#content_adv input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 18px;
+    padding: 1px 8px;
+    width: 50%;
+    text-align: left;
+}
+
+.btn {
+    background-color: #4d90fe;
+    color: white;
+    float: right;
+}
